@@ -151,9 +151,9 @@ else
 end
 
 local isStudio = RunService:IsStudio() or false
-local website = "nebulasoftworks.xyz/starlight"
+local website = "raw.githubusercontent.com/IIIIllll1111IIIIllll1111/Starlight/refs/heads/main/"
 local Acrylic = isStudio and require(ReplicatedStorage.AcrylicBundled)
-	or loadstring(game:HttpGet("https://raw." .. website .. "/AcrylicModule.luau"))()
+	or loadstring(game:HttpGet("https://" .. website .. "Modules/Acrylic/Build.luau"))()
 Acrylic.Init()
 
 local Request = (syn and syn.request)
